@@ -1,0 +1,52 @@
+.bodyContainer {
+  width: 100%;
+  display: inline-flexbox;
+  padding: 1em;
+  margin: auto;
+  overflow: hidden;
+}
+
+.filterBox {
+  width: 20%;
+  float: left;
+  min-height: 600px;
+  background-color: white;
+  padding: 0 1em;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.cardsBox {
+  width: 75%;
+  float: left;
+  min-height: 600px;
+  border-radius: 5px;
+  overflow: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 700px) {
+  .filterBox {
+    float: none;
+    width: auto;
+    margin-right: 0;
+  }
+  .cardsBox {
+    float: none;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .filterBox {
+    float: left;
+    width: auto;
+    margin-right: 0;
+  }
+  .cardsBox {
+    float: none;
+    width: auto;
+  }
+}

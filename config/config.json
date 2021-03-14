@@ -1,0 +1,4 @@
+{
+    "SERVER_BASE_URL": "https://api.spacexdata.com",
+    "SERVER_API_VER": "v3"
+}

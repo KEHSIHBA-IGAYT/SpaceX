@@ -1,0 +1,17 @@
+.container {
+  max-width: 1440px;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-weight: bold;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}

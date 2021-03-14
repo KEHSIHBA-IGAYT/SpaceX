@@ -1,0 +1,102 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.headingSm {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.headingBlue {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #54619e;
+}
+
+.headingBlack {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  font-size: medium;
+  color: #54619e;
+}
+
+.listItem {
+  margin-top: -5px;
+}
+
+.lightText {
+  color: #666;
+}
+
+.buttonSmall {
+  display: inline-block;
+  padding: 0.46em 1.6em;
+  border: 0.1em #000000;
+  margin: 0 0.5em 0.5em 0;
+  border-radius: 0.3em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  background-color: #c6df9b;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+.buttonSmall:hover {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  background-color: #7cba01;
+  cursor: pointer;
+}
+
+.buttonActive {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  background-color: #7cba01;
+}
+
+.imageSamll {
+  height: 100px;
+  width: 100px;
+}

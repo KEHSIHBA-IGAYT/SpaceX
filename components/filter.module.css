@@ -1,0 +1,10 @@
+.mainBox {
+  display: inline-flexbox;
+  text-align: center;
+  left: 50px;
+  padding-bottom: 20px;
+}
+.filterSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
