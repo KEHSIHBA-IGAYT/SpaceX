@@ -1,4 +1,6 @@
 #### This Project displays the SpaceX launch information with year, launch success and landing success filters.
+It is hosted using Vercel and can be accessed here:
+[SpaceX Launch Information!](https://space-x-nine.vercel.app/)
 
 ### Tech stack:
 
@@ -49,4 +51,7 @@
 
 #### [Solution]: This has been achieved with the help of flexbox, grids and CSS media queries.
 
+## Lighthouse score:
+
+![Lighthouse Score image](https://i.ibb.co/60R89q9/webdev.png)
 
